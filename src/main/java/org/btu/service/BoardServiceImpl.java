@@ -1,9 +1,7 @@
 package org.btu.service;
 
 import java.util.List;
-
 import javax.inject.Inject;
-
 import org.btu.domain.BoardVO;
 import org.btu.domain.Criteria;
 import org.btu.persistence.BoardDAO;
