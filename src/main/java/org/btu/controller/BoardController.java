@@ -132,7 +132,7 @@ public class BoardController {
 		rttr.addFlashAttribute("msg", "success");
 
 		// return "/board/success";
-		return "redirect:/board/listAll";
+		return "redirect:/board/listPage";
 	}
 	
 	@RequestMapping(value = "/modify", method = RequestMethod.POST)
